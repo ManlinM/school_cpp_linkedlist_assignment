@@ -1,9 +1,6 @@
 #include"Subscription.h"
 //Name:ManlinMao
-//Purpose:assignment 3, writting a program that use linked
-//list to keep track of a magazine distributor's magazine
-//subscriptions
-//Section101
+
 Subscription::Subscription(string newDistriName)
 {
 	distributorName = (newDistriName.length() > 0) ? newDistriName : "Unknown";
